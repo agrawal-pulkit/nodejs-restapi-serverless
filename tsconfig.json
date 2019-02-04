@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./build",
+    "removeComments": false,
+    "sourceMap": true,
+    "mapRoot": "./build",
+    "sourceRoot" : "./"
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "filesGlob": [
+    "./src/**/*.ts",
+    "./test/**/*.ts",
+    "!./node_modules/**/*.ts",
+    "typings/index.d.ts"
+  ],
+  "compileOnSave": false,
+  "buildOnSave": false,
+  "atom": {
+    "rewriteTsconfig": false
+  }
+}
